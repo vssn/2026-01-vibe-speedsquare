@@ -4,15 +4,22 @@
 A Vite + React + Tailwind CSS + shadcn/ui application for calculating triangle measurements.
 
 ## Tech Stack
-- **Build Tool**: Vite 7.3.0
-- **Framework**: React 18
-- **Styling**: Tailwind CSS
+- **Build Tool**: Vite 7.3.1
+- **Framework**: React 19.2.0
+- **Styling**: Tailwind CSS 3.4.19
 - **UI Components**: shadcn/ui
 - **Additional Libraries**:
-  - class-variance-authority
-  - clsx
-  - tailwind-merge
-  - lucide-react
+  - class-variance-authority 0.7.1
+  - clsx 2.1.1
+  - tailwind-merge 3.4.0
+  - lucide-react 0.562.0
+
+## Recent Updates (Feb 21, 2026)
+- Upgraded all dependencies to latest versions
+- Upgraded React from 18 to 19.2.0
+- Upgraded Vite from 7.2.4 to 7.3.1
+- Upgraded eslint from 9.39.1 to 10.0.1 (breaking change to fix security vulnerabilities)
+- All security vulnerabilities resolved (minimatch ReDoS issues fixed)
 
 ## Features
 
