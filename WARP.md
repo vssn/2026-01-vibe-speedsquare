@@ -14,7 +14,12 @@ A Vite + React + Tailwind CSS + shadcn/ui application for calculating triangle m
   - tailwind-merge 3.4.0
   - lucide-react 0.562.0
 
-## Recent Updates (Feb 21, 2026)
+## Recent Updates (Jun 21, 2026)
+- Fixed eslint-plugin-react-hooks peer dep conflict with eslint 10 (upgraded 7.0.1 → 7.1.1)
+- Added esbuild override (^0.28.1) to fix GHSA-g7r4-m6w7-qqqr audit vulnerability
+- All security vulnerabilities resolved (0 vulnerabilities)
+
+## Previous Updates (Feb 21, 2026)
 - Upgraded all dependencies to latest versions
 - Upgraded React from 18 to 19.2.0
 - Upgraded Vite from 7.2.4 to 7.3.1
